@@ -5,7 +5,7 @@
 ### 1. Clone the repository
 ```shell
 git clone https://github.com/cynavi/prep
-cd buxx
+cd prep
 ```
 
 ### 2. Install npm dependencies
