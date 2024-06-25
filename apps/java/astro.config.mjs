@@ -17,6 +17,7 @@ export default defineConfig({
           label: 'Java Core',
           items: [
             { label: 'JRE vs JVM vs JDK', link: '/core/jre-vs-jvm-vs-jdk' },
+            { label: 'Avoid using wildcard import', link: '/core/avoid-using-wildcard-import' }
           ]
         }
       ]

@@ -179,6 +179,13 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"docs": {
+"core/avoid-using-wildcard-import.md": {
+	id: "core/avoid-using-wildcard-import.md";
+  slug: "core/avoid-using-wildcard-import";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "core/jre-vs-jvm-vs-jdk.md": {
 	id: "core/jre-vs-jvm-vs-jdk.md";
   slug: "core/jre-vs-jvm-vs-jdk";
