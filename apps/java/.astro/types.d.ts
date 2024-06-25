@@ -186,6 +186,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"core/java-sandbox.md": {
+	id: "core/java-sandbox.md";
+  slug: "core/java-sandbox";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "core/jre-vs-jvm-vs-jdk.md": {
 	id: "core/jre-vs-jvm-vs-jdk.md";
   slug: "core/jre-vs-jvm-vs-jdk";
