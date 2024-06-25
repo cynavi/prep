@@ -8,7 +8,7 @@ export default defineConfig({
   trailingSlash: 'never',
   integrations: [
     starlight({
-      title: 'Java Interview Prep',
+      title: 'Java Prep',
       social: {
         github: 'https://github.com/cynavi/prep'
       },
