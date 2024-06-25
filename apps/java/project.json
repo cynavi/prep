@@ -1,0 +1,55 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "java",
+  "projectType": "application",
+  "sourceRoot": "apps/java/src",
+  "targets": {
+    "build": {
+      "outputs": ["{workspaceRoot}/dist/apps/java"],
+      "command": "cd apps/java && astro build",
+      "options": {}
+    },
+    "dev": {
+      "command": "cd apps/java && astro dev",
+      "options": {}
+    },
+    "run": {
+      "command": "cd apps/java && astro dev",
+      "options": {}
+    },
+    "sync": {
+      "command": "cd apps/java && astro sync",
+      "options": {
+      }
+    },
+    "start": {
+      "command": "cd apps/java && astro dev",
+      "options": {}
+    },
+    "serve": {
+      "command": "cd apps/java && astro dev",
+      "options": {}
+    },
+    "deploy": {
+      "command": "cd apps/java && netlify deploy"
+    },
+    "preview": {
+      "dependsOn": [
+        {
+          "target": "build",
+          "projects": "self"
+        }
+      ],
+      "command": "cd apps/java && astro preview",
+      "options": {}
+    },
+    "astro": {
+      "command": "cd apps/java && astro",
+      "options": {}
+    },
+    "check": {
+      "command": "cd apps/java && astro check"
+    }
+  },
+  "tags": []
+}
