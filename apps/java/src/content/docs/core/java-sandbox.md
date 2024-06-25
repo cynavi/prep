@@ -40,3 +40,5 @@ there’s very little in the sandbox for her to play with, but when my six-year-
 of some visitors, a toy with small removable parts would be dangerous, but when I trust the recipient, it’s perfectly reasonable to include that item in the sandbox. And so it 
 is with Java programs: in some cases, I might trust them to access my filesystem; in other cases, I might trust them to access only part of my filesystem; and in still other 
 cases, I might not trust them to access my filesystem at all.
+
+Source: https://www.oreilly.com/library/view/java-security/1565924037/ch01s02.html#SEC-CH-1-FIG-2
