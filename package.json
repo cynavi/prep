@@ -5,26 +5,26 @@
   "scripts": {},
   "private": true,
   "dependencies": {
-    "@astrojs/netlify": "^3.0.1",
-    "@astrojs/starlight": "^0.9.1",
-    "astro": "^3.0.6",
-    "sharp": "^0.32.5",
-    "@astrojs/sitemap": "^3.0.0",
-    "@astrojs/tailwind": "^5.0.0",
-    "@fontsource/open-sans": "^5.0.12",
-    "astro-seo": "0.8.0",
-    "tailwindcss": "^3.3.3"
+    "@astrojs/netlify": "^5.3.2",
+    "@astrojs/starlight": "^0.24.4",
+    "astro": "^4.11.1",
+    "sharp": "^0.33.4",
+    "@astrojs/sitemap": "^3.1.6",
+    "@astrojs/tailwind": "^5.1.0",
+    "@fontsource/open-sans": "^5.0.28",
+    "astro-seo": "0.8.4",
+    "tailwindcss": "^3.4.4"
   },
   "devDependencies": {
-    "@nx/js": "16.8.1",
-    "@nx/workspace": "16.8.1",
-    "nx": "16.8.1",
+    "@nx/js": "19.3.1",
+    "@nx/workspace": "19.3.1",
+    "nx": "19.3.1",
     "nx-cloud": "latest",
-    "@typescript-eslint/parser": "6.6.0",
+    "@typescript-eslint/parser": "7.14.1",
     "eslint": "8.49.0",
-    "eslint-plugin-astro": "0.29.0",
-    "prettier": "3.0.3",
-    "prettier-plugin-astro": "0.12.0",
-    "prettier-plugin-tailwindcss": "0.5.4"
+    "eslint-plugin-astro": "1.2.2",
+    "prettier": "3.3.2",
+    "prettier-plugin-astro": "0.14.0",
+    "prettier-plugin-tailwindcss": "0.6.5"
   }
 }
