@@ -157,16 +157,23 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"core/never-initialize-string-using-constructor.md": {
-	id: "core/never-initialize-string-using-constructor.md";
-  slug: "core/never-initialize-string-using-constructor";
+"core/oop/multiple-inheritance.md": {
+	id: "core/oop/multiple-inheritance.md";
+  slug: "core/oop/multiple-inheritance";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"core/reference-vs-value-comparison.md": {
-	id: "core/reference-vs-value-comparison.md";
-  slug: "core/reference-vs-value-comparison";
+"core/string/never-initialize-string-using-constructor.md": {
+	id: "core/string/never-initialize-string-using-constructor.md";
+  slug: "core/string/never-initialize-string-using-constructor";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/string/reference-vs-value-comparison.md": {
+	id: "core/string/reference-vs-value-comparison.md";
+  slug: "core/string/reference-vs-value-comparison";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
