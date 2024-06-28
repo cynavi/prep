@@ -1,5 +1,5 @@
 ---
-title: Java sandbox
+title: Java Sandbox
 ---
 
 Discussions of Java’s security model often center around the idea of a sandbox model. The idea behind this model is that when you allow a program 

@@ -7,7 +7,7 @@ title: Avoid using wildcard (*) import statement
 - Why import on demand is evil?
 
 
-**tldr**
+## tldr
 
 - Avoiding wildcard helps to avoid potential class collision. E.g.
 ```text
@@ -23,7 +23,7 @@ If you import `java.lang.reflect.*` and `java.sql.*` you'll have a collision on 
 - Avoiding wildcard makes dependencies explicit, so that anyone who has to read your code later knows what you meant to import and what you didn't mean to import.
 - Avoiding wildcard makes some compilation faster because the compiler doesn't have to search the whole package to identify dependencies, though this is usually not a huge deal with modern compilers.
 
-### Compiling with wildcard vs without
+## Compiling with wildcard vs without
 ```java
 import java.util.*;
 import java.util.Arraylist;
@@ -51,7 +51,7 @@ and class `Foo` exists in package `a`. Now you check in your perfectly compiling
 
 Poof! Now your code refuses to compile.
 
-### The Big Bang
+## The Big Bang
 This is language design at its worst, and Sun made this blow up in everyone’s face between JDK 1.1 and 1.2. In 1.1, there existed java.awt.List. Tons of folks wrote code that included
 
 ```java
