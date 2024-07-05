@@ -143,6 +143,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"core/collections/hashset-internal-working.md": {
+	id: "core/collections/hashset-internal-working.md";
+  slug: "core/collections/hashset-internal-working";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "core/deep-copy-vs-shallow-copy.md": {
 	id: "core/deep-copy-vs-shallow-copy.md";
   slug: "core/deep-copy-vs-shallow-copy";
@@ -167,6 +174,13 @@ declare module 'astro:content' {
 "core/jre-vs-jvm-vs-jdk.md": {
 	id: "core/jre-vs-jvm-vs-jdk.md";
   slug: "core/jre-vs-jvm-vs-jdk";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/object-creation-without-new.md": {
+	id: "core/object-creation-without-new.md";
+  slug: "core/object-creation-without-new";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">

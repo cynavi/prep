@@ -17,3 +17,11 @@ export const oopRoutes = {
     { label: 'Multiple inheritance', link: '/core/oop/multiple-inheritance' }
   ]
 } as const;
+
+export const collectionsRoutes = {
+  label: 'Collections',
+  items: [
+    { label: 'HashSet internal working', link: '/core/collections/hashset-internal-working'}
+  ]
+} as const;
+

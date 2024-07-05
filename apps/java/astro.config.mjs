@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import netlify from '@astrojs/netlify/functions';
-import { oopRoutes, stringRoutes } from './src/routes';
+import { collectionsRoutes, oopRoutes, stringRoutes } from './src/routes';
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,6 +23,8 @@ export default defineConfig({
             { label: 'Deep copy vs shallow copy', link: '/core/deep-copy-vs-shallow-copy' },
             stringRoutes,
             { label: 'Errors vs exceptions', link: '/core/errors-vs-exceptions' },
+            { label: 'Object creation without new operator', link: '/core/object-creation-without-new' },
+            collectionsRoutes,
             oopRoutes,
             { label: 'Java Sandbox', link: '/core/java-sandbox' }
           ]
