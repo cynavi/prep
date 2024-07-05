@@ -20,7 +20,9 @@ export default defineConfig({
           items: [
             { label: 'JRE vs JVM vs JDK', link: '/core/jre-vs-jvm-vs-jdk' },
             { label: 'Avoid using wildcard import', link: '/core/avoid-using-wildcard-import' },
+            { label: 'Deep copy vs shallow copy', link: '/core/deep-copy-vs-shallow-copy' },
             stringRoutes,
+            { label: 'Errors vs exceptions', link: '/core/errors-vs-exceptions' },
             oopRoutes,
             { label: 'Java Sandbox', link: '/core/java-sandbox' }
           ]
@@ -29,4 +31,3 @@ export default defineConfig({
     })
   ]
 });
-

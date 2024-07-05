@@ -143,6 +143,20 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"core/deep-copy-vs-shallow-copy.md": {
+	id: "core/deep-copy-vs-shallow-copy.md";
+  slug: "core/deep-copy-vs-shallow-copy";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/errors-vs-exceptions.md": {
+	id: "core/errors-vs-exceptions.md";
+  slug: "core/errors-vs-exceptions";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "core/java-sandbox.md": {
 	id: "core/java-sandbox.md";
   slug: "core/java-sandbox";
