@@ -185,6 +185,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"core/main-method.md": {
+	id: "core/main-method.md";
+  slug: "core/main-method";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "core/object-creation-without-new.md": {
 	id: "core/object-creation-without-new.md";
   slug: "core/object-creation-without-new";
@@ -209,6 +216,13 @@ declare module 'astro:content' {
 "core/string/reference-vs-value-comparison.md": {
 	id: "core/string/reference-vs-value-comparison.md";
   slug: "core/string/reference-vs-value-comparison";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/thread/creating-thread.md": {
+	id: "core/thread/creating-thread.md";
+  slug: "core/thread/creating-thread";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">

@@ -26,6 +26,13 @@ export const collectionsRoutes = {
   ]
 } as const;
 
+export const threadRoutes = {
+  label: 'Thread',
+  items: [
+    { label: 'Creating thread', link: '/core/thread/creating-thread'}
+  ]
+} as const;
+
 export const jdbcRoutes = {
   label: 'JDBC',
   items: [
