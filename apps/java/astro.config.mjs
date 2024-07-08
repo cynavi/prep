@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import netlify from '@astrojs/netlify/functions';
-import { collectionsRoutes, oopRoutes, stringRoutes } from './src/routes';
+import { collectionsRoutes, jdbcRoutes, oopRoutes, stringRoutes } from './src/routes';
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,7 +16,7 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: 'Java Core',
+          label: 'Core',
           items: [
             { label: 'JRE vs JVM vs JDK', link: '/core/jre-vs-jvm-vs-jdk' },
             { label: 'Avoid using wildcard import', link: '/core/avoid-using-wildcard-import' },
@@ -28,7 +28,8 @@ export default defineConfig({
             oopRoutes,
             { label: 'Java Sandbox', link: '/core/java-sandbox' }
           ]
-        }
+        },
+        jdbcRoutes
       ]
     })
   ]

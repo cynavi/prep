@@ -143,6 +143,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"core/collections/fail-fast-vs-fail-safe.md": {
+	id: "core/collections/fail-fast-vs-fail-safe.md";
+  slug: "core/collections/fail-fast-vs-fail-safe";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "core/collections/hashset-internal-working.md": {
 	id: "core/collections/hashset-internal-working.md";
   slug: "core/collections/hashset-internal-working";
@@ -213,6 +220,20 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"jdbc/execute-vs-execute-query-vs-execute-update.md": {
+	id: "jdbc/execute-vs-execute-query-vs-execute-update.md";
+  slug: "jdbc/execute-vs-execute-query-vs-execute-update";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"jdbc/statement-vs-prepared-statement-vs-callable-statement.md": {
+	id: "jdbc/statement-vs-prepared-statement-vs-callable-statement.md";
+  slug: "jdbc/statement-vs-prepared-statement-vs-callable-statement";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 };
 
 	};

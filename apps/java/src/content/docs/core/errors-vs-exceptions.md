@@ -42,7 +42,7 @@ private String readLine(String fileName) throws IOException {
 Because IOException is a checked exception, this is the simplest way to satisfy the compiler, but it does 
 mean that anyone that calls our method now needs to handle it too!
 
-## try-catch
+### try-catch
 ```java
 private String readLine(String fileName) {
     try {
