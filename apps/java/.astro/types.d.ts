@@ -136,6 +136,13 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"docs": {
+"core/autoboxing-and-unboxing.md": {
+	id: "core/autoboxing-and-unboxing.md";
+  slug: "core/autoboxing-and-unboxing";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "core/avoid-using-wildcard-import.md": {
 	id: "core/avoid-using-wildcard-import.md";
   slug: "core/avoid-using-wildcard-import";

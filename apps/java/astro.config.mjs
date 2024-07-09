@@ -24,6 +24,7 @@ export default defineConfig({
             { label: 'Deep copy vs shallow copy', link: '/core/deep-copy-vs-shallow-copy' },
             { label: 'Errors vs exceptions', link: '/core/errors-vs-exceptions' },
             { label: 'Object creation without new operator', link: '/core/object-creation-without-new' },
+            { label: 'Autoboxing and unboxing', link: '/core/autoboxing-and-unboxing'}
           ]
         },
         stringRoutes,

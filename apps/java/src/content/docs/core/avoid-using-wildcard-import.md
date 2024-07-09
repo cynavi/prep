@@ -52,7 +52,8 @@ and class `Foo` exists in package `a`. Now you check in your perfectly compiling
 Poof! Now your code refuses to compile.
 
 ## The Big Bang
-This is language design at its worst, and Sun made this blow up in everyone’s face between JDK 1.1 and 1.2. In 1.1, there existed java.awt.List. Tons of folks wrote code that included
+This is language design at its worst, and Sun made this blow up in everyone’s face between JDK 1.1 and 1.2. In 1.1, there existed java.awt.List.
+Tons of folks wrote code that included
 
 ```java
 import java.util.*;
