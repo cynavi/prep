@@ -1,3 +1,16 @@
+export const coreMiscRoutes = {
+  label: 'Core Misc',
+  items: [
+    { label: 'JRE vs JVM vs JDK', link: '/core/jre-vs-jvm-vs-jdk' },
+    { label: 'Avoid using wildcard import', link: '/core/avoid-using-wildcard-import' },
+    { label: 'main() method', link: '/core/main-method' },
+    { label: 'Deep copy vs shallow copy', link: '/core/deep-copy-vs-shallow-copy' },
+    { label: 'Errors vs exceptions', link: '/core/errors-vs-exceptions' },
+    { label: 'Object creation without new operator', link: '/core/object-creation-without-new' },
+    { label: 'Autoboxing and unboxing', link: '/core/autoboxing-and-unboxing'}
+  ]
+} as const;
+
 export const stringRoutes = {
   label: 'String',
   items: [
