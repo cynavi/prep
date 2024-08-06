@@ -178,6 +178,41 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"core/generics/bounded-type-parameters.md": {
+	id: "core/generics/bounded-type-parameters.md";
+  slug: "core/generics/bounded-type-parameters";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/generics/generic-subtypes.md": {
+	id: "core/generics/generic-subtypes.md";
+  slug: "core/generics/generic-subtypes";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/generics/type-erasure.md": {
+	id: "core/generics/type-erasure.md";
+  slug: "core/generics/type-erasure";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/generics/why-use-generics.md": {
+	id: "core/generics/why-use-generics.md";
+  slug: "core/generics/why-use-generics";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/generics/wildcards.md": {
+	id: "core/generics/wildcards.md";
+  slug: "core/generics/wildcards";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "core/java-sandbox.md": {
 	id: "core/java-sandbox.md";
   slug: "core/java-sandbox";

@@ -23,8 +23,6 @@ specify `List<? extends Number>`. The term `List<Number>` is more restrictive th
 a list of type `Number` only, whereas the latter matches a list of type `Number` or any of its subclasses.
 
 ```java
-import java.util.List;
-
 public class Main {
 
   public static void consume(List<? extends Number> list) {
