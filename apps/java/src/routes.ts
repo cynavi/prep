@@ -67,3 +67,14 @@ export const jdbcRoutes = {
   collapsed: true
 } as const;
 
+export const genericsRoutes = {
+  label: 'Generics',
+  items: [
+    { label: 'Why use generics?', link: '/core/generics/why-use-generics' },
+    { label: 'Generic subtypes', link: '/core/generics/generic-subtypes' },
+    { label: 'Bounded type parameters', link: '/core/generics/bounded-type-parameters' },
+    { label: 'Wildcards', link: '/core/generics/wildcards' },
+    { label: 'Type erasure', link: '/core/generics/type-erasure' }
+  ],
+  collapsed: true
+} as const;

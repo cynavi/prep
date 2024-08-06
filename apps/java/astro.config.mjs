@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 import netlify from '@astrojs/netlify/functions';
 import {
   collectionsRoutes,
-  coreMiscRoutes,
+  coreMiscRoutes, genericsRoutes,
   jdbcRoutes,
   oopRoutes,
   securityRoutes,
@@ -29,6 +29,7 @@ export default defineConfig({
         threadRoutes,
         oopRoutes,
         jdbcRoutes,
+        genericsRoutes,
         securityRoutes
       ]
     })
