@@ -213,6 +213,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"core/integer-caching.md": {
+	id: "core/integer-caching.md";
+  slug: "core/integer-caching";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "core/java-sandbox.md": {
 	id: "core/java-sandbox.md";
   slug: "core/java-sandbox";
@@ -265,6 +272,13 @@ declare module 'astro:content' {
 "core/thread/creating-thread.md": {
 	id: "core/thread/creating-thread.md";
   slug: "core/thread/creating-thread";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/variable-hiding.md": {
+	id: "core/variable-hiding.md";
+  slug: "core/variable-hiding";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
