@@ -41,3 +41,6 @@ title: Questions
 Design Round: A parking lot with multiple entries and exit points. 2 constraints:
 When the Vehicle enters, it should be directed to the closest empty slot.
 When the Vehicle exits, it should be directed towards the closest exit points.
+What is garbage collector? what are the different types of garbage collector?
+Define Volatile keyword?
+Explain how the flow work when clent hit http request?
