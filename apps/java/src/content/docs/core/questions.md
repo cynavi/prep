@@ -44,3 +44,8 @@ When the Vehicle exits, it should be directed towards the closest exit points.
 What is garbage collector? what are the different types of garbage collector?
 Define Volatile keyword?
 Explain how the flow work when clent hit http request?
+Difference between comparator and comparable?
+how are transactions handle in spring?
+JWT - What? how does it work and how is the token identified?
+difference between hashing and encryption
+
