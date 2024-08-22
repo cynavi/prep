@@ -1,0 +1,3 @@
+What is garbage collector? what are the different types of garbage collector?
+Define Volatile keyword?
+Explain how the flow work when clent hit http request?
