@@ -49,3 +49,7 @@ how are transactions handle in spring?
 JWT - What? how does it work and how is the token identified?
 difference between hashing and encryption
 
+
+how to detect a deadlock in a running program?
+what are the ways to create singelton class in java?
+can we call a stored procedure from java using spring framework?
