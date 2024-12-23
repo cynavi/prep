@@ -80,3 +80,13 @@ export const genericsRoutes = {
   ],
   collapsed: true
 } as const;
+
+export const jvmRoutes = {
+  label: 'JVM',
+  items: [
+    { label: 'JVM life cycle', link: '/core/jvm/jvm-life-cycle' },
+    { label: 'How JVM executes Java code', link: '/core/jvm/how-jvm-executes-java-code' },
+    { label: 'Heap dump vs thread dump vs core dump', link: '/core/jvm/heap-dump-vs-thread-dump-vs-core-dump' }
+  ],
+  collapsed: true
+} as const;

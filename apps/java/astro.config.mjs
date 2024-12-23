@@ -4,7 +4,7 @@ import netlify from '@astrojs/netlify/functions';
 import {
   collectionsRoutes,
   coreMiscRoutes, genericsRoutes,
-  jdbcRoutes,
+  jdbcRoutes, jvmRoutes,
   oopRoutes,
   securityRoutes,
   stringRoutes,
@@ -30,6 +30,7 @@ export default defineConfig({
         oopRoutes,
         jdbcRoutes,
         genericsRoutes,
+        jvmRoutes,
         securityRoutes
       ]
     })

@@ -234,6 +234,27 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"core/jvm/heap-dump-vs-thread-dump-vs-core-dump.md": {
+	id: "core/jvm/heap-dump-vs-thread-dump-vs-core-dump.md";
+  slug: "core/jvm/heap-dump-vs-thread-dump-vs-core-dump";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/jvm/how-jvm-executes-java-code.md": {
+	id: "core/jvm/how-jvm-executes-java-code.md";
+  slug: "core/jvm/how-jvm-executes-java-code";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/jvm/jvm-life-cycle.md": {
+	id: "core/jvm/jvm-life-cycle.md";
+  slug: "core/jvm/jvm-life-cycle";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "core/main-method.md": {
 	id: "core/main-method.md";
   slug: "core/main-method";
@@ -248,9 +269,23 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"core/oop/design-patterns.md": {
+	id: "core/oop/design-patterns.md";
+  slug: "core/oop/design-patterns";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "core/oop/multiple-inheritance.md": {
 	id: "core/oop/multiple-inheritance.md";
   slug: "core/oop/multiple-inheritance";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/questions.md": {
+	id: "core/questions.md";
+  slug: "core/questions";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
