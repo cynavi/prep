@@ -20,7 +20,7 @@ export default defineConfig({
   trailingSlash: 'never',
   integrations: [
     starlight({
-      title: 'Java Preparation',
+      title: 'Java Survival Kit',
 
       social: {
         github: 'https://github.com/cynavi/prep'
