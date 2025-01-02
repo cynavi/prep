@@ -269,13 +269,6 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"core/oop/design-patterns.md": {
-	id: "core/oop/design-patterns.md";
-  slug: "core/oop/design-patterns";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
 "core/oop/multiple-inheritance.md": {
 	id: "core/oop/multiple-inheritance.md";
   slug: "core/oop/multiple-inheritance";
@@ -314,6 +307,69 @@ declare module 'astro:content' {
 "core/variable-hiding.md": {
 	id: "core/variable-hiding.md";
   slug: "core/variable-hiding";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"design-patterns/adapter.md": {
+	id: "design-patterns/adapter.md";
+  slug: "design-patterns/adapter";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"design-patterns/builder.md": {
+	id: "design-patterns/builder.md";
+  slug: "design-patterns/builder";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"design-patterns/decorator.md": {
+	id: "design-patterns/decorator.md";
+  slug: "design-patterns/decorator";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"design-patterns/facade.md": {
+	id: "design-patterns/facade.md";
+  slug: "design-patterns/facade";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"design-patterns/factory-method.md": {
+	id: "design-patterns/factory-method.md";
+  slug: "design-patterns/factory-method";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"design-patterns/observer.md": {
+	id: "design-patterns/observer.md";
+  slug: "design-patterns/observer";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"design-patterns/singleton.md": {
+	id: "design-patterns/singleton.md";
+  slug: "design-patterns/singleton";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"design-patterns/strategy.md": {
+	id: "design-patterns/strategy.md";
+  slug: "design-patterns/strategy";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"design-patterns/tldr.md": {
+	id: "design-patterns/tldr.md";
+  slug: "design-patterns/tldr";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">

@@ -9,8 +9,9 @@ export const coreMiscRoutes = {
     { label: 'Deep copy vs shallow copy', link: '/core/deep-copy-vs-shallow-copy' },
     { label: 'Errors vs exceptions', link: '/core/errors-vs-exceptions' },
     { label: 'Object creation without new operator', link: '/core/object-creation-without-new' },
-    { label: 'Autoboxing and unboxing', link: '/core/autoboxing-and-unboxing'}
-  ]
+    { label: 'Autoboxing and unboxing', link: '/core/autoboxing-and-unboxing' }
+  ],
+  collapsed: true
 } as const;
 
 export const stringRoutes = {
@@ -38,8 +39,8 @@ export const oopRoutes = {
 export const collectionsRoutes = {
   label: 'Collections',
   items: [
-    { label: 'HashSet internal working', link: '/core/collections/hashset-internal-working'},
-    { label: 'Fail-fast vs fail-safe', link: '/core/collections/fail-fast-vs-fail-safe'}
+    { label: 'HashSet internal working', link: '/core/collections/hashset-internal-working' },
+    { label: 'Fail-fast vs fail-safe', link: '/core/collections/fail-fast-vs-fail-safe' }
   ],
   collapsed: true
 } as const;
@@ -47,7 +48,7 @@ export const collectionsRoutes = {
 export const threadRoutes = {
   label: 'Thread',
   items: [
-    { label: 'Creating thread', link: '/core/thread/creating-thread'}
+    { label: 'Creating thread', link: '/core/thread/creating-thread' }
   ],
   collapsed: true
 } as const;
@@ -63,8 +64,14 @@ export const securityRoutes = {
 export const jdbcRoutes = {
   label: 'JDBC',
   items: [
-    { label: 'execute() vs executeQuery() vs executeUpdate()', link: '/jdbc/execute-vs-execute-query-vs-execute-update'},
-    { label: 'Statement vs PreparedStatement vs CallableStatement', link: '/jdbc/statement-vs-prepared-statement-vs-callable-statement'}
+    {
+      label: 'execute() vs executeQuery() vs executeUpdate()',
+      link: '/jdbc/execute-vs-execute-query-vs-execute-update'
+    },
+    {
+      label: 'Statement vs PreparedStatement vs CallableStatement',
+      link: '/jdbc/statement-vs-prepared-statement-vs-callable-statement'
+    }
   ],
   collapsed: true
 } as const;
@@ -87,6 +94,39 @@ export const jvmRoutes = {
     { label: 'JVM life cycle', link: '/core/jvm/jvm-life-cycle' },
     { label: 'How JVM executes Java code', link: '/core/jvm/how-jvm-executes-java-code' },
     { label: 'Heap dump vs thread dump vs core dump', link: '/core/jvm/heap-dump-vs-thread-dump-vs-core-dump' }
+  ],
+  collapsed: true
+} as const;
+
+export const designPatternsRoute = {
+  label: 'Design Patterns', items: [
+    { label: 'tldr', link: '/design-patterns/tldr' },
+    {
+      label: 'Creational Patterns',
+      items: [
+        { label: 'Singleton', link: '/design-patterns/singleton' },
+        { label: 'Factory Method', link: '/design-patterns/factory-method' },
+        { label: 'Builder', link: '/design-patterns/builder' }
+      ],
+      collapsed: true
+    },
+    {
+      label: 'Structural Patterns',
+      items: [
+        { label: 'Adapter', link: '/design-patterns/adapter' },
+        { label: 'Decorator', link: '/design-patterns/decorator' },
+        { label: 'Facade', link: '/design-patterns/facade' }
+      ],
+      collapsed: true
+    },
+    {
+      label: 'Behavioural Patterns',
+      items: [
+        { label: 'Strategy', link: '/design-patterns/strategy' },
+        { label: 'Observer', link: '/design-patterns/observer' }
+      ],
+      collapsed: true
+    }
   ],
   collapsed: true
 } as const;
