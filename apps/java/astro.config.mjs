@@ -9,7 +9,7 @@ import {
   jdbcRoutes,
   jvmRoutes,
   oopRoutes,
-  securityRoutes,
+  securityRoutes, springRoutes,
   stringRoutes,
   threadRoutes
 } from './src/routes';
@@ -35,7 +35,8 @@ export default defineConfig({
         genericsRoutes,
         jvmRoutes,
         designPatternsRoute,
-        securityRoutes
+        securityRoutes,
+        springRoutes
       ]
     })
   ]

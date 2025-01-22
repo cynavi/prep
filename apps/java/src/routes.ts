@@ -130,3 +130,29 @@ export const designPatternsRoute = {
   ],
   collapsed: true
 } as const;
+
+export const springRoutes = {
+  label: 'Spring',
+  items: [
+    {label: 'Spring Principles', link: '/spring/core/spring-principles'},
+    {
+      label: 'IoC Container',
+      items: [
+        { label: 'IoC and DI', link: '/spring/core/ioc-container/ioc-and-di' },
+        { label: 'IoC Container', link: '/spring/core/ioc-container/spring-ioc-container' },
+        { label: 'Bean Overview', link: '/spring/core/ioc-container/bean-overview' },
+        { label: 'Naming Beans', link: '/spring/core/ioc-container/naming-beans' },
+        { label: 'Instantiating Beans', link: '/spring/core/ioc-container/instantiating-beans' },
+        { label: 'Dependency Injection', link: '/spring/core/ioc-container/dependency-injection' },
+        { label: 'Using depends-on', link: '/spring/core/ioc-container/depends-on' },
+        { label: 'Lazily Initializing Beans', link: '/spring/core/ioc-container/lazily-initializing-beans' },
+        { label: 'Method Injection', link: '/spring/core/ioc-container/method-injection' },
+        { label: 'Bean Scopes', link: '/spring/core/ioc-container/bean-scopes' },
+        { label: 'Customizing Beans', link: '/spring/core/ioc-container/customizing-beans' },
+        { label: 'Inheriting Bean Definition', link: '/spring/core/ioc-container/bean-definition-inheritance' },
+      ],
+      collapsed: true
+    }
+  ],
+  collapsed: true
+} as const;

@@ -234,6 +234,27 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"core/jvm/decoding-class-files/class-fields-and-data-repositories.md": {
+	id: "core/jvm/decoding-class-files/class-fields-and-data-repositories.md";
+  slug: "core/jvm/decoding-class-files/class-fields-and-data-repositories";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/jvm/decoding-class-files/class-file-headers.md": {
+	id: "core/jvm/decoding-class-files/class-file-headers.md";
+  slug: "core/jvm/decoding-class-files/class-file-headers";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"core/jvm/decoding-class-files/overview.md": {
+	id: "core/jvm/decoding-class-files/overview.md";
+  slug: "core/jvm/decoding-class-files/overview";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "core/jvm/heap-dump-vs-thread-dump-vs-core-dump.md": {
 	id: "core/jvm/heap-dump-vs-thread-dump-vs-core-dump.md";
   slug: "core/jvm/heap-dump-vs-thread-dump-vs-core-dump";
@@ -391,6 +412,104 @@ declare module 'astro:content' {
 "jdbc/statement-vs-prepared-statement-vs-callable-statement.md": {
 	id: "jdbc/statement-vs-prepared-statement-vs-callable-statement.md";
   slug: "jdbc/statement-vs-prepared-statement-vs-callable-statement";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/ioc-container/bean-definition-inheritance.md": {
+	id: "spring/core/ioc-container/bean-definition-inheritance.md";
+  slug: "spring/core/ioc-container/bean-definition-inheritance";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/ioc-container/bean-overview.md": {
+	id: "spring/core/ioc-container/bean-overview.md";
+  slug: "spring/core/ioc-container/bean-overview";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/ioc-container/bean-scopes.md": {
+	id: "spring/core/ioc-container/bean-scopes.md";
+  slug: "spring/core/ioc-container/bean-scopes";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/ioc-container/customizing-beans.md": {
+	id: "spring/core/ioc-container/customizing-beans.md";
+  slug: "spring/core/ioc-container/customizing-beans";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/ioc-container/dependency-injection.md": {
+	id: "spring/core/ioc-container/dependency-injection.md";
+  slug: "spring/core/ioc-container/dependency-injection";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/ioc-container/depends-on.md": {
+	id: "spring/core/ioc-container/depends-on.md";
+  slug: "spring/core/ioc-container/depends-on";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/ioc-container/instantiating-beans.md": {
+	id: "spring/core/ioc-container/instantiating-beans.md";
+  slug: "spring/core/ioc-container/instantiating-beans";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/ioc-container/ioc-and-di.md": {
+	id: "spring/core/ioc-container/ioc-and-di.md";
+  slug: "spring/core/ioc-container/ioc-and-di";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/ioc-container/lazily-initializing-beans.md": {
+	id: "spring/core/ioc-container/lazily-initializing-beans.md";
+  slug: "spring/core/ioc-container/lazily-initializing-beans";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/ioc-container/method-injection.md": {
+	id: "spring/core/ioc-container/method-injection.md";
+  slug: "spring/core/ioc-container/method-injection";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/ioc-container/naming-beans.md": {
+	id: "spring/core/ioc-container/naming-beans.md";
+  slug: "spring/core/ioc-container/naming-beans";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/ioc-container/spring-ioc-container.md": {
+	id: "spring/core/ioc-container/spring-ioc-container.md";
+  slug: "spring/core/ioc-container/spring-ioc-container";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/core/spring-principles.md": {
+	id: "spring/core/spring-principles.md";
+  slug: "spring/core/spring-principles";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"spring/spring-data-jpa/dependency-declaration.md": {
+	id: "spring/spring-data-jpa/dependency-declaration.md";
+  slug: "spring/spring-data-jpa/dependency-declaration";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">

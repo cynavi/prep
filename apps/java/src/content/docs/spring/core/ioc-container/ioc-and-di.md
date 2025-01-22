@@ -2,7 +2,7 @@
 title: Inversion of Control (IoC) and Dependency Injection (DI)
 ---
 
-## Inversion of Control (IoC)?
+## Inversion of Control (IoC)
 Inversion of Control (IoC) is a principle in software design where the control of object creation and management is transferred
 from the object itself to an external entity, often called a container or framework. This approach allows for loose coupling
 between components in a system.
