@@ -416,6 +416,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"spring/core/ioc-container/annotation-based-container.md": {
+	id: "spring/core/ioc-container/annotation-based-container.md";
+  slug: "spring/core/ioc-container/annotation-based-container";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "spring/core/ioc-container/bean-definition-inheritance.md": {
 	id: "spring/core/ioc-container/bean-definition-inheritance.md";
   slug: "spring/core/ioc-container/bean-definition-inheritance";

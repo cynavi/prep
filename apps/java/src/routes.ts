@@ -150,6 +150,7 @@ export const springRoutes = {
         { label: 'Bean Scopes', link: '/spring/core/ioc-container/bean-scopes' },
         { label: 'Customizing Beans', link: '/spring/core/ioc-container/customizing-beans' },
         { label: 'Inheriting Bean Definition', link: '/spring/core/ioc-container/bean-definition-inheritance' },
+        { label: 'Annotation Based Container', link: '/spring/core/ioc-container/annotation-based-container' },
       ],
       collapsed: true
     }
