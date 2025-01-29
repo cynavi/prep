@@ -91,7 +91,7 @@ public class CustomBeanPostProcessor implements BeanPostProcessor {
 ## Built-in BeanPostProcessor Implementations in Spring
 Spring provides several `BeanPostProcessor` implementations that process annotations and configure beans dynamically.
 
-### 1. `ConfigurationClassPostProcessor`
+### `ConfigurationClassPostProcessor`
 - **Purpose**: Processes `@Configuration` and `@Bean` annotations to register additional bean definitions.
 - **Implementation**:
   - Scans for `@Configuration` classes.
@@ -108,7 +108,7 @@ public class ConfigurationClassPostProcessor implements BeanFactoryPostProcessor
     }
 }
 ```
-### 2. `AutowiredAnnotationBeanPostProcessor`
+### `AutowiredAnnotationBeanPostProcessor`
 - **Purpose**: Handles `@Autowired` and `@Value` dependency injection.
 - **Implementation**:
   - Scans for `@Autowired` fields and methods.
@@ -127,7 +127,7 @@ public class AutowiredAnnotationBeanPostProcessor implements InstantiationAwareB
 }
 ```
 
-### 3. `CommonAnnotationBeanPostProcessor`
+### `CommonAnnotationBeanPostProcessor`
 - **Purpose**: Supports JSR-250 annotations like `@PostConstruct` and `@PreDestroy`.
 - **Implementation**:
   - Detects lifecycle annotations (`@PostConstruct`, `@PreDestroy`).
@@ -151,7 +151,7 @@ public class CommonAnnotationBeanPostProcessor implements BeanPostProcessor {
 }
 ```
 
-### 4. `PersistenceAnnotationBeanPostProcessor`
+### `PersistenceAnnotationBeanPostProcessor`
 - **Purpose**: Processes JPA-related annotations like `@PersistenceContext`.
 - **Implementation**:
   - Injects `EntityManager` instances into beans marked with `@PersistenceContext`.
@@ -168,7 +168,7 @@ public class PersistenceAnnotationBeanPostProcessor implements BeanPostProcessor
 }
 ```
 
-### 5. `EventListenerMethodProcessor`
+### `EventListenerMethodProcessor`
 - **Purpose**: Enables `@EventListener` to register event listeners dynamically.
 - **Implementation**:
   - Scans for methods annotated with `@EventListener`.
